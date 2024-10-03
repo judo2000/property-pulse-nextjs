@@ -49,7 +49,8 @@ const PropertyCard = ({ property }) => {
             <span className="md:hidden lg:inline">Baths</span>
           </p>
           <p>
-            <FaRulerCombined className="fa-solid fa-ruler-combined" />
+            <FaRulerCombined className="md:hidden lg:inline" />
+            {property.square_feet}{" "}
             <span className="md:hidden lg:inline">sqft</span>
           </p>
         </div>
